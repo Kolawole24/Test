@@ -1,0 +1,194 @@
+/* margin 0px to avoid additional width to web browser */
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    
+    
+}
+/* giving box-sizing to avoid padding and margin added to width */
+*{
+    box-sizing: border-box;
+}
+/* styling header */
+#contact{
+    width: 509px;
+  height: 17px;
+  font-family: OpenSans;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  text-align: justify;
+  color: #526173;
+  margin: auto;
+  margin-bottom: -16px;
+  margin-top: 10px;
+  box-sizing: border-box;
+} 
+hr{
+    width: 533px;
+  height: 1px;
+  background-color: #ffffff;
+  overflow: hidden;
+  margin-top: 1px;
+  border-bottom: 2px;
+  box-sizing: border-box;
+}
+
+#EN{
+    width: 509px;
+    height: 17px;
+    font-family: OpenSans;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    text-align: justify;
+    color: #526173;
+    position: relative;
+    right: -10px;
+    box-sizing: border-box;
+}
+
+/* Beginning of nav bar */
+img{
+    width: 101px;
+    height: 19px;
+  object-fit: contain;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+  
+  li {
+    float: left;
+  }
+  li a {
+    display: block;
+    text-align: center;
+    padding: 7px 8px;
+    text-decoration: none;
+    word-spacing: 1px;
+    margin-right: 2px;
+    box-sizing: border-box;
+    color: #526173;
+  }
+  li a:hover {
+    background-color: #111;
+    text-decoration: none;
+  }
+  #nav{
+      position: relative;
+      right: -385px;
+  }
+
+  /* company picture style */
+
+  #pic{
+    width: 1440px;
+    height: 607px;
+    object-fit: contain;
+    overflow-y: hidden;
+    overflow-x: hidden
+
+  }
+  #text{
+      position: relative;
+      text-align: center;
+      color: white;
+      top: -300px;
+  height: 59px;
+ font-family: Georgia;
+  font-size: 52px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 3.1px;
+  box-sizing: content-box;
+  }
+
+  #lan{
+    position: relative;
+    left: 522px;
+    top: -17px;
+    border: none;
+  }
+.booking{
+    width: 944px;
+  height: 150px;
+  box-shadow: rgb(228, 228, 228) 2px;
+  box-sizing: border-box;
+}
+/* about us */
+  #about{
+    text-align: center;
+    position: relative;
+    bottom: -50px;
+  }
+  #best{
+    height: 118px;
+    font-family: Georgia;
+    font-size: 28px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 3.1px;
+    overflow-y: hidden
+    
+  }
+  .history{
+    padding: 355px;
+    box-sizing: border-box;
+  font-family: SourceSansPro;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  line-height: normal;
+  color: #9b9b9b;
+  position: relative;
+  bottom:411px;
+  overflow-y: hidden;
+
+  }
+
+  #cool{
+    width: 751px;
+    height: 300px;
+    object-fit: contain;
+    border: solid 0px;
+    position: relative;
+    right: -276px;
+    top: -702px;
+    overflow-y: hidden
+  }
+  /* hotel booking */
+ 
+  /* hotel picture */
+  #view{
+  height: 18px;
+  font-family: SourceSansPro;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 4.9px;
+  color: #9b9b9b;
+  position: relative;
+    right: 421px;
+    top: -100px;
+    overflow-y: hidden
+  }
+ 
